@@ -1,0 +1,58 @@
+import type { RequestNote } from '../../domain';
+
+export const requestNotes: RequestNote[] = [
+  {
+    id: 'note-gh-001-1',
+    requestId: 'request-gh-001',
+    authorType: 'agent',
+    authorId: 'system',
+    text: 'Awaiting society_noc document to proceed.',
+    category: 'info_request',
+    createdAt: '2026-08-10T14:00:05.000Z',
+  },
+  {
+    id: 'note-gh-005-1',
+    requestId: 'request-gh-005',
+    authorType: 'agent',
+    authorId: 'system',
+    text: 'Short-notice penalty and outstanding dues flagged; recommendation sent to admin as approve_with_charges pending confirmation.',
+    category: 'charge_projection',
+    createdAt: '2026-08-13T09:06:05.000Z',
+  },
+  {
+    id: 'note-rv-002-1',
+    requestId: 'request-rv-002',
+    authorType: 'agent',
+    authorId: 'system',
+    text: 'No policy clause found for emergency notice-period exceptions at this community. Escalated for manual review.',
+    category: 'escalation',
+    createdAt: '2026-08-12T09:00:05.000Z',
+  },
+  {
+    id: 'note-gh-007-1',
+    requestId: 'request-gh-007',
+    authorType: 'admin',
+    authorId: 'admin-gh-facility-manager',
+    text: 'Name mismatch verified by phone call with resident on 2026-08-08 — approving despite agent flag.',
+    category: 'override',
+    createdAt: '2026-08-08T15:45:00.000Z',
+  },
+  {
+    id: 'note-rv-003-1',
+    requestId: 'request-rv-003',
+    authorType: 'admin',
+    authorId: 'admin-rv-community-manager',
+    text: 'Dues remain unresolved after final reminder; rejecting per policy. Resident may resubmit once dues are cleared.',
+    category: 'rejection',
+    createdAt: '2026-08-06T13:00:05.000Z',
+  },
+  {
+    id: 'note-rv-004-1',
+    requestId: 'request-rv-004',
+    authorType: 'resident',
+    authorId: 'resident-sanjay-kulkarni',
+    text: 'Relocation plans changed — no longer moving out.',
+    category: 'cancellation',
+    createdAt: '2026-08-05T09:59:00.000Z',
+  },
+];
