@@ -4,6 +4,8 @@ A governed, tool-mediated AI agent that handles resident move-in and move-out re
 
 > **For a full engineering write-up** — architecture rationale, agent design, guardrails, autonomy model, trade-offs, assumptions, limitations — see **[EXPLANATION.md](./EXPLANATION.md)**. This README is the quick-start / evaluator-facing summary.
 
+**🔗 Live demo:** [anacity-move-workflow.vercel.app](https://anacity-move-workflow.vercel.app) — try [`/demo`](https://anacity-move-workflow.vercel.app/demo) for the guided scenario walkthrough. Deployed on Vercel's free tier directly from this repo; since the app's data layer is in-memory (see §12 of `EXPLANATION.md`), state can reset between requests on serverless — for anything beyond a quick click-through, run it locally instead (§10 below).
+
 ---
 
 ## 1. Project Overview
@@ -251,7 +253,7 @@ npm run format:check  # Prettier — check mode, no writes
 
 ## 15. Screenshots / Demo Guidance
 
-Every screenshot below is a real, unedited capture of the running app on its default seed data (`npm run dev`, no setup). Reproduce any of them yourself with the exact steps listed underneath each one.
+Prefer clicking over reading? Skip straight to the **[live demo](https://anacity-move-workflow.vercel.app/demo)** — no install needed. Every screenshot below is a real, unedited capture of the running app on its default seed data (`npm run dev`, no setup), each reproducible locally with the exact steps listed underneath.
 
 ### Home page
 
